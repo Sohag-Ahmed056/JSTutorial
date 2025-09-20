@@ -1,4 +1,4 @@
-# 📘 JavaScript Tutorial — Part 1: Basics (With Real-Life Examples)
+#  JavaScript Tutorial — Part 1: Basics 
 
 ## 🔹 1. Introduction to JavaScript
 
@@ -10,7 +10,7 @@
   * **CSS** = Skin & Clothes (style).
   * **JavaScript** = Brain & Muscles (interactivity).
 
-👉 Without JS, a webpage is just static text and images. With JS, you can **click buttons, show alerts, load data, play animations**.
+ Without JS, a webpage is just static text and images. With JS, you can **click buttons, show alerts, load data, play animations**.
 
 **How to run JS?**
 
@@ -263,7 +263,7 @@ function sayHello() {
 
 ---
 
-# 📘 JavaScript Tutorial — Part 2: Advanced Concepts (With Real-Life Examples)
+#  JavaScript Tutorial — Part 2: Advanced Concepts 
 
 ## 🔹 1. ES6+ Features
 
@@ -336,8 +336,8 @@ fetchData(msg => console.log(msg));
 ```js
 let order = new Promise((resolve, reject) => {
   let foodReady = true;
-  if (foodReady) resolve("🍔 Delivered!");
-  else reject("❌ Failed!");
+  if (foodReady) resolve(" Delivered!");
+  else reject(" Failed!");
 });
 
 order.then(msg => console.log(msg)).catch(err => console.log(err));
@@ -356,7 +356,7 @@ order.then(msg => console.log(msg)).catch(err => console.log(err));
 
 ```js
 async function getData() {
-  return "📦 Data Loaded!";
+  return " Data Loaded!";
 }
 
 async function showData() {
@@ -403,7 +403,7 @@ class Car {
     this.model = model;
   }
   drive() {
-    console.log(`${this.brand} ${this.model} is driving! 🚗`);
+    console.log(`${this.brand} ${this.model} is driving! `);
   }
 }
 
@@ -487,7 +487,7 @@ console.log(sum); // 15
 
 ## 🔹 10. Closures
 
-**Analogy:** Closure is like a **backpack** 🎒.
+**Analogy:** Closure is like a **backpack** .
 
 * A child carries a backpack with toys.
 * Even if child goes outside, they still have access to those toys.
